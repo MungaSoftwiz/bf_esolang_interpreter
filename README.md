@@ -3,7 +3,7 @@
 ## Introduction
 
 This Brainfuck interpreter project is inspired by a task I encountered during
-MY time at ALX, which sparked the interest in esoteric programming languages.
+my time at ALX, which sparked the interest in esoteric programming languages.
 Brainfuck, a minimalist, Turing complete language, has always been a
 fascinating challenge for programmers.
 
