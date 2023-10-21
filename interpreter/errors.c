@@ -15,6 +15,10 @@ void argument_error(int argc, char **argv)
 	}
 }
 
+/**
+ * malloc_error - program to signify memory allocation error
+ * @bf_code: the brainfuck code passed as argument
+ */
 void malloc_error(char *bf_code)
 {
  	if (bf_code == NULL)
