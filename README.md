@@ -55,8 +55,9 @@ You can run the brainfuck programs using the interpreter as follows:
 
 To use the interpreter, execute it from the command line with the following options:
 >./bfrun [output_option] <file>`
->[output_option] (Optional): Use the -n flag to specify that the output
-should be treated as integers rather than characters.'
+
+[output_option] (Optional): Use the -n flag to specify that the output
+should be treated as integers rather than characters.
 
 ### Examples
 
