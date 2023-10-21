@@ -54,17 +54,15 @@ You can run the brainfuck programs using the interpreter as follows:
 ## Usage
 
 To use the interpreter, execute it from the command line with the following options:
-	`./bfrun [output_option] <file>`
-	`[output_option] (Optional): Use the -n flag to specify that the output
-	should be treated as integers rather than characters.'
+>./bfrun [output_option] <file>`
+>[output_option] (Optional): Use the -n flag to specify that the output
+should be treated as integers rather than characters.'
 
 ### Examples
 
 Execute a Brainfuck program in character mode:
-	-./bfrun hello_world.bf
+>./bfrun hello_world.bf
 
 Execute a Brainfuck program in integer mode:
-	-./bfrun -n fibonacci.bf
-
-
+>./bfrun -n fibonacci.bf
 
