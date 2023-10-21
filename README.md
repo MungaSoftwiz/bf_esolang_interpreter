@@ -39,3 +39,32 @@ Follow these steps to build the Brainfuck interpreter:
 
 2. Navigate to the project directory:
 >cd bf_esolang_interpreter/interpreter
+
+
+3. Compile the source code:
+>gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o bfrun
+
+
+### Running Brainfuck Programs
+
+You can run the brainfuck programs using the interpreter as follows:
+>./bfrun  <your_program.bf>
+
+
+## Usage
+
+To use the interpreter, execute it from the command line with the following options:
+	`./bfrun [output_option] <file>`
+	`[output_option] (Optional): Use the -n flag to specify that the output
+	should be treated as integers rather than characters.'
+
+### Examples
+
+Execute a Brainfuck program in character mode:
+	-./bfrun hello_world.bf
+
+Execute a Brainfuck program in integer mode:
+	-./bfrun -n fibonacci.bf
+
+
+
