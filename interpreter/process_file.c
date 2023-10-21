@@ -2,7 +2,7 @@
 
 /**
  * process_file - function processes the file & gets size
- * @fp: the file to be processed
+ * @bf_code: the code read from the file
  *
  * Return: a string of the processed brainf*ck code
  */
@@ -46,7 +46,7 @@ void process_file(const char *filename, char **bf_code)
 
 /**
  * interpret_instructions - function interprets code from the file
- * @char: the code to be interpreted
+ * @code: the code to be interpreted
  */
 void interpret_instruction(char *code)
 {
